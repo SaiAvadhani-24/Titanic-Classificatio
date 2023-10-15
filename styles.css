@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    background-color: cadetblue;
+    height: 300px;
+    width: 450px;
+    margin-top: 150px;
+    margin-left: 550px;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 8px;
+    border-radius: 8px 8px 8px 8px;
+}
+.container .celsius input{
+     height: 45px;
+     width: 250px;
+     margin-top: 30px;
+     font-size: x-large;
+     border-radius: 8px 8px 8px 8px;
+     text-align: center;
+}
+.container .fahrenheit input{
+    height: 45px;
+    width: 250px;
+    margin-top:1px;
+    font-size: x-large;
+    border-radius: 8px 8px 8px 8px;
+    text-align: center;
+}
+.container .result button{
+    background-color: darkorange;
+    height: 35px;
+    width: 120px;
+    font-size: large;
+    margin-right: 3px;
+    border-radius: 8px 8px 8px 8px;
+}
